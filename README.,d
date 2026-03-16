@@ -1,0 +1,42 @@
+# Packet Sniffer (Python)
+
+This project is a simple packet sniffer that captures and analyzes network traffic.
+
+## Features
+
+- Capture network packets
+- Identify protocols (TCP, UDP, ICMP)
+- Extract source and destination IP
+- Extract ports
+- Display packet size
+- Save packets to log file
+
+## Technologies Used
+
+- Python
+- Scapy
+- Networking Concepts
+
+## How It Works
+
+Network Traffic
+      ↓
+Packet Capture
+      ↓
+Packet Parsing
+      ↓
+Protocol Detection
+      ↓
+Information Display
+      ↓
+Packet Logging
+
+## Run the Program
+
+Install dependency:
+
+pip install scapy
+
+Run:
+
+python main.py
